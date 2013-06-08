@@ -14,12 +14,12 @@
 #
 class ruby::params {
 
-	### Application related parameters
+  ### Application related parameters
 
-	$packages = $::operatingsystem ? {
-		default => ['ruby']
-	}
+  $packages = $::operatingsystem ? {
+    default => ['ruby']
+  }
 
-	$enabled = true
+  $enabled = true
 
 }
