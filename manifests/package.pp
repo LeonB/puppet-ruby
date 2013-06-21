@@ -1,7 +1,7 @@
 class ruby::package {
 
-    package  { $ruby::packages:
-        ensure   => $ruby::ensure,
-    }
+  package { $ruby::packages:
+    ensure => $ruby::ensure,
+  }
 
 }
