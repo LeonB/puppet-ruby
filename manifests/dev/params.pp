@@ -17,7 +17,7 @@ class ruby::dev::params {
   ### Application related parameters
 
   $packages = $::operatingsystem ? {
-    default => []
+    default => ['rubygems-integration', 'libreadline-dev']
   }
 
   $gems = []
